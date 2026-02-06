@@ -37,6 +37,11 @@ export PK_API_KEY="dev-key"
 uv run uvicorn pkc.api.main:app --reload --host 0.0.0.0 --port 8080
 ```
 
+Live API (Render):
+
+- Base URL: https://promise-keeper.onrender.com
+- Docs: https://promise-keeper.onrender.com/docs
+
 Generate a secure API key:
 
 ```bash
@@ -96,8 +101,11 @@ uv run pytest -q
 
 - `QUICKSTART.md`
 - `docs/architecture.md`
+- `docs/FAQ.md`
 - `docs/roadmap.md`
 - `docs/protocol/`
+- `docs/examples/`
+- `docs/tools/`
 
 ## Project
 
