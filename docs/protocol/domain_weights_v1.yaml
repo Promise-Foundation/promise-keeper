@@ -1,0 +1,12 @@
+version: v1
+weights:
+  /security: 2.0
+  /safety: 2.0
+  /financial: 2.0
+  /legal: 2.0
+  /software: 1.0
+  /research: 1.0
+  /writing: 1.0
+  /coordination: 1.0
+  /social: 0.5
+  /casual: 0.5

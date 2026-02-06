@@ -1,0 +1,7 @@
+version: v1
+floors:
+  /security/*: E3
+  /financial/*: E2
+  /software/*: E2
+  /writing/*: E1
+  /casual/*: E0

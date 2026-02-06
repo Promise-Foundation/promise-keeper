@@ -1,0 +1,6 @@
+from typing import Any, Protocol
+
+
+class KVStorePort(Protocol):
+    def get(self, key: str) -> Any: ...
+    def set(self, key: str, value: Any) -> None: ...

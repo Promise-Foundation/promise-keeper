@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: promise-keeper
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health
+    envVars:
+      - key: PK_API_KEY
+        sync: false
+      - key: PK_DEFAULT_DOMAIN
+        value: /coordination
