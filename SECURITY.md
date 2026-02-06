@@ -5,7 +5,7 @@
 If you believe you have found a security vulnerability, please do one of the following:
 
 1. Open a private GitHub Security Advisory for this repository.
-2. Email: security@promise.foundation
+2. Email: david@promise.foundation
 
 Please include:
 - A clear description of the issue.
